@@ -2,7 +2,7 @@ class MyClass:
 
   def __init__(self, value):
     self._value = value
-    self.__name="Mathew"
+    self.__name = "Mathew"
 
   def show(self):
     print(f"Value is {self._value}")
