@@ -1,4 +1,4 @@
-n = [1, 2, 3, 4, 5]
+numbers = [1, 2, 3, 4, 5]
 
-while (length := len(n)) > 0:
-  print(n.pop())
+while (n := len(numbers)) > 0:
+  print(numbers.pop())
